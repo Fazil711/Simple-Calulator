@@ -10,7 +10,7 @@ task.minsize(600, 400)
 
 def addnum():
     try:
-        res = int(a.get()) + int(b.get())
+        res = float(a.get()) + float(b.get())
         text1.set(res)
         text2.set('')
         text3.set('')
@@ -22,7 +22,7 @@ def addnum():
         text4.set('')
 def subnum():
     try:
-        res = int(a.get()) - int(b.get())
+        res = float(a.get()) - float(b.get())
         text1.set(res)
         text2.set('')
         text3.set('')
@@ -34,7 +34,7 @@ def subnum():
         text4.set('')
 def multnum():
     try:
-        res = int(a.get()) * int(b.get())
+        res = float(a.get()) * float(b.get())
         text1.set(res)
         text2.set('')
         text3.set('')
@@ -47,7 +47,7 @@ def multnum():
 def divnum():
     try:
         try:
-            res = int(a.get()) / int(b.get())
+            res = float(a.get()) / float(b.get())
             text1.set(res)
             text2.set('')
             text3.set('')
@@ -65,8 +65,8 @@ def divnum():
 def sinnum():
     try:
         try:
-            num1 = int(a.get())*(180/math.pi)
-            num2 = int(b.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
+            num2 = float(b.get())*(180/math.pi)
             res = math.sin(num1)
             res1 = math.sin(num2)
             text1.set(res)
@@ -74,7 +74,7 @@ def sinnum():
             text3.set(num1)
             text4.set(num2)
         except:
-            num1 = int(a.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
             res = math.sin(num1)
             text1.set(res)
             text2.set('')
@@ -89,8 +89,8 @@ def cosnum():
 
     try:
         try:
-            num1 = int(a.get())*(180/math.pi)
-            num2 = int(b.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
+            num2 = float(b.get())*(180/math.pi)
             res = math.cos(num1)
             res1 = math.cos(num2)
             text1.set(res)
@@ -98,7 +98,7 @@ def cosnum():
             text3.set(num1)
             text4.set(num2)
         except:
-            num1 = int(a.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
             res = math.cos(num1)
             text1.set(res)
             text2.set('')
@@ -111,7 +111,7 @@ def cosnum():
             text4.set('')
 def inverse():
     try:
-        a1 = int(a.get())
+        a1 = float(a.get())
         res = 1/a1
         text1.set(res)
         text2.set('')
@@ -124,7 +124,7 @@ def inverse():
         text4.set('')
 def squared():
     try:
-        res = (int(a.get()))**2
+        res = (float(a.get()))**2
         text1.set(res)
         text2.set('')
         text3.set('')
@@ -137,8 +137,8 @@ def squared():
 def tannum():
     try:
         try:
-            num1 = int(a.get())*(180/math.pi)
-            num2 = int(b.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
+            num2 = float(b.get())*(180/math.pi)
             res = math.tan(num1)
             res1 = math.tan(num2)
             text1.set(res)
@@ -146,7 +146,7 @@ def tannum():
             text3.set(num1)
             text4.set(num2)
         except:
-            num1 = int(a.get())*(180/math.pi)
+            num1 = float(a.get())*(180/math.pi)
             res = math.tan(num1)
             text1.set(res)
             text2.set('')
