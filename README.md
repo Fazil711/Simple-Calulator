@@ -5,7 +5,18 @@ I made it using Tkinter from Python library
 
 ### Description:
 It is a simple GUI calculator which takes inputs and can Add, Sub, Div, Mult, inverse, square and exponent <br />
-It can also show SIN, COS, TAN and radians of the numbers 
+It can also show SIN, COS, TAN and radians of the numbers <br>
+<img width="302" alt="g" src="https://user-images.githubusercontent.com/44942652/101469318-9b509c00-396a-11eb-8ce4-41233ee33490.PNG"> <br>
+Above is the GUI <br>
+<img width="302" alt="g1" src="https://user-images.githubusercontent.com/44942652/101469413-bcb18800-396a-11eb-9de7-9789c927f35d.PNG"> <br>
+In above pic we calculated sin of one input <br>
+<img width="303" alt="g2" src="https://user-images.githubusercontent.com/44942652/101469567-e79bdc00-396a-11eb-8534-7ade27b6449b.PNG"> <br>
+In above pic we calculated cos of two input <br>
+<img width="301" alt="g3" src="https://user-images.githubusercontent.com/44942652/101469730-1ca82e80-396b-11eb-96fe-41613cb1bd49.PNG"> <br>
+In above pic we calculated addition of two inputs <br>
+
+
+
 
 #### &#128161; Techs & Tools Used:
 
